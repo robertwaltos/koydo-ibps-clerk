@@ -1,0 +1,5 @@
+Initial release of Koydo IBPS Clerk Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

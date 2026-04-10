@@ -1,0 +1,45 @@
+// IBPS Clerk Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM051",
+  slug: "ibps-clerk",
+  name: "IBPS Clerk",
+  fullName: "IBPS Clerk",
+  alias: "IBPS Clerk",
+  family: "IBPS",
+  category: "Banking recruitment",
+  subcategory: "Bank clerk recruitment",
+  country: "India",
+  region: "South Asia",
+  languages: ["English","Hindi"],
+  estimatedAnnualTakers: "high applicants",
+  testingWindow: "Aug-Oct",
+  schedulePattern: "Annual",
+  ageGroup: "20-30",
+  targetUser: "Bank job seeker",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ"],
+  adaptivity: "Tiered",
+  sections: "Prelims + mains",
+  scoringMode: "Cutoff",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "banking_aptitude",
+  uiEngine: "section_timed_objective",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#0891B2",
+  themeColorDark: "#0E7490",
+  localizationComplexity: "Medium",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
